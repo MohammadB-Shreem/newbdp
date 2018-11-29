@@ -88,6 +88,7 @@ public class Login extends javax.swing.JFrame {
         passcode.setBounds(160, 240, 190, 30);
 
         jButton1.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        jButton1.setIcon(new javax.swing.ImageIcon("C:\\Users\\Basim\\Documents\\NetBeansProjects\\NEWDATABASE\\src\\icons8_Broom_48px.png")); // NOI18N
         jButton1.setText("Clear");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -95,9 +96,10 @@ public class Login extends javax.swing.JFrame {
             }
         });
         jPanel1.add(jButton1);
-        jButton1.setBounds(90, 330, 128, 25);
+        jButton1.setBounds(180, 350, 128, 50);
 
         jButton2.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        jButton2.setIcon(new javax.swing.ImageIcon("C:\\Users\\Basim\\Documents\\NetBeansProjects\\NEWDATABASE\\src\\icons8_Login_48px_1.png")); // NOI18N
         jButton2.setText("SignIn");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -105,17 +107,17 @@ public class Login extends javax.swing.JFrame {
             }
         });
         jPanel1.add(jButton2);
-        jButton2.setBounds(220, 300, 129, 25);
+        jButton2.setBounds(40, 290, 129, 50);
 
         jButton3.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
-        jButton3.setText("Close");
+        jButton3.setIcon(new javax.swing.ImageIcon("C:\\Users\\Basim\\Documents\\NetBeansProjects\\NEWDATABASE\\src\\icons8_Close_Sign_48px_1.png")); // NOI18N
         jButton3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton3ActionPerformed(evt);
             }
         });
         jPanel1.add(jButton3);
-        jButton3.setBounds(220, 330, 129, 25);
+        jButton3.setBounds(40, 350, 129, 50);
 
         jLabel6.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -157,7 +159,10 @@ public class Login extends javax.swing.JFrame {
         if(username.getText().equalsIgnoreCase("mhmd")&&passcode.getText().equalsIgnoreCase("1234")){
         this.hide();
         new Secratarya().setVisible(true);
-        // having error in sql exception or not found or Empty text .
+        }
+        else if(username.getText().equalsIgnoreCase("kareem")&&passcode.getText().equalsIgnoreCase("1234")){
+        this.hide();
+        new Doctor().setVisible(true);
         }
         else {
         JOptionPane.showMessageDialog(this,"Error Name Or passcode",null,JOptionPane.ERROR_MESSAGE);

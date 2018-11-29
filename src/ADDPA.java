@@ -15,6 +15,7 @@ public class ADDPA extends javax.swing.JFrame {
      */
     public ADDPA() {
         initComponents();
+        this.setLocationRelativeTo(null);
     }
 
     /**
@@ -85,6 +86,11 @@ public class ADDPA extends javax.swing.JFrame {
 
         jToggleButton3.setBackground(java.awt.SystemColor.desktop);
         jToggleButton3.setIcon(new javax.swing.ImageIcon("C:\\Users\\Basim\\Documents\\NetBeansProjects\\NEWDATABASE\\src\\icons8_Broom_48px.png")); // NOI18N
+        jToggleButton3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jToggleButton3ActionPerformed(evt);
+            }
+        });
 
         jButton1.setIcon(new javax.swing.ImageIcon("C:\\Users\\Basim\\Documents\\NetBeansProjects\\NEWDATABASE\\src\\icons8_Server_48px.png")); // NOI18N
         jButton1.addActionListener(new java.awt.event.ActionListener() {
@@ -222,6 +228,16 @@ public class ADDPA extends javax.swing.JFrame {
     private void jTextField1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField1ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jTextField1ActionPerformed
+
+    private void jToggleButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton3ActionPerformed
+        // TODO add your handling code here:
+        jTextField1.setText("Full_Name");
+        jTextField3.setText("");
+        jTextField4.setText("");
+        jTextField6.setText("");
+        jTextField5.setText("00970/");
+        
+    }//GEN-LAST:event_jToggleButton3ActionPerformed
 
     /**
      * @param args the command line arguments
