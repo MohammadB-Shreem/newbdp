@@ -8,12 +8,12 @@
  *
  * @author Basim
  */
-public class Add_Date extends javax.swing.JFrame {
+public class notidate extends javax.swing.JFrame {
 
     /**
      * Creates new form Add_Date
      */
-    public Add_Date() {
+    public notidate() {
         initComponents();
         this.setLocationRelativeTo(null);
     }
@@ -215,23 +215,24 @@ public class Add_Date extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
+    private void jToggleButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton3ActionPerformed
+        // TODO add your handling code here:
+        jTextField3.setText("00Hr");
+        jTextField4.setText("00Hr");
+       
+
+    }//GEN-LAST:event_jToggleButton3ActionPerformed
+
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
         // TODO add your handling code here:
         this.hide();
         new PADATES().setVisible(true);
     }//GEN-LAST:event_jButton3ActionPerformed
 
-    private void jToggleButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton3ActionPerformed
-        // TODO add your handling code here:
-        jTextField3.setText("00Hr");
-        jTextField4.setText("00Hr");
-
-    }//GEN-LAST:event_jToggleButton3ActionPerformed
-
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
         // TODO add your handling code here:
         this.hide();
-        new Secratarya().setVisible(true);
+        new Customer().setVisible(true);
     }//GEN-LAST:event_jButton2ActionPerformed
 
     /**

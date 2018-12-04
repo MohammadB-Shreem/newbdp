@@ -8,12 +8,12 @@
  *
  * @author Basim
  */
-public class PAINFO extends javax.swing.JFrame {
+public class PAINFO_doc extends javax.swing.JFrame {
 
     /**
      * Creates new form PAINFO
      */
-    public PAINFO() {
+    public PAINFO_doc() {
         initComponents();
         this.setLocationRelativeTo(null);
     }
@@ -148,7 +148,7 @@ public class PAINFO extends javax.swing.JFrame {
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
         this.hide();
-        new Secratarya().setVisible(true);
+        new Doctor().setVisible(true);
     }//GEN-LAST:event_jButton1ActionPerformed
 
     /**

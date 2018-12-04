@@ -42,9 +42,8 @@ public class Login extends javax.swing.JFrame {
         jButton1 = new javax.swing.JButton();
         jButton2 = new javax.swing.JButton();
         jButton3 = new javax.swing.JButton();
-        jLabel6 = new javax.swing.JLabel();
-        jLabel5 = new javax.swing.JLabel();
         password = new javax.swing.JLabel();
+        jButton4 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -96,7 +95,7 @@ public class Login extends javax.swing.JFrame {
             }
         });
         jPanel1.add(jButton1);
-        jButton1.setBounds(180, 350, 128, 50);
+        jButton1.setBounds(230, 350, 128, 50);
 
         jButton2.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jButton2.setIcon(new javax.swing.ImageIcon("C:\\Users\\Basim\\Documents\\NetBeansProjects\\NEWDATABASE\\src\\icons8_Login_48px_1.png")); // NOI18N
@@ -119,21 +118,19 @@ public class Login extends javax.swing.JFrame {
         jPanel1.add(jButton3);
         jButton3.setBounds(40, 350, 129, 50);
 
-        jLabel6.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                jLabel6MouseClicked(evt);
-            }
-        });
-        jPanel1.add(jLabel6);
-        jLabel6.setBounds(230, 310, 0, 0);
-
-        jLabel5.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 204, 0), 3));
-        jPanel1.add(jLabel5);
-        jLabel5.setBounds(0, 0, 460, 430);
-
         password.setForeground(new java.awt.Color(255, 255, 255));
         jPanel1.add(password);
         password.setBounds(450, 160, 0, 0);
+
+        jButton4.setIcon(new javax.swing.ImageIcon("C:\\Users\\Basim\\Documents\\NetBeansProjects\\NEWDATABASE\\src\\icons8_Sign_Up_48px.png")); // NOI18N
+        jButton4.setText("SignUp");
+        jButton4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton4ActionPerformed(evt);
+            }
+        });
+        jPanel1.add(jButton4);
+        jButton4.setBounds(230, 290, 130, 50);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -164,6 +161,10 @@ public class Login extends javax.swing.JFrame {
         this.hide();
         new Doctor().setVisible(true);
         }
+        else if(username.getText().equalsIgnoreCase("tala")&&passcode.getText().equalsIgnoreCase("1234")){
+        this.hide();
+        new Customer().setVisible(true);
+        }
         else {
         JOptionPane.showMessageDialog(this,"Error Name Or passcode",null,JOptionPane.ERROR_MESSAGE);
         }
@@ -188,19 +189,11 @@ public class Login extends javax.swing.JFrame {
 
     }//GEN-LAST:event_usernameMouseClicked
 
-    private void jLabel6MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel6MouseClicked
+    private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
         // TODO add your handling code here:
-        if(password.getText().equals(""))
-        {
-            passcode.setEchoChar((char)0);
-            password.setText("Set");
-        }
-        else{
-            passcode.setEchoChar('*');
-            password.setText("");
-        }
-
-    }//GEN-LAST:event_jLabel6MouseClicked
+        this.hide();
+        new SignUp().setVisible(true);
+    }//GEN-LAST:event_jButton4ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -243,11 +236,10 @@ public class Login extends javax.swing.JFrame {
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton2;
     private javax.swing.JButton jButton3;
+    private javax.swing.JButton jButton4;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
-    private javax.swing.JLabel jLabel5;
-    private javax.swing.JLabel jLabel6;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPasswordField passcode;
     public javax.swing.JLabel password;
