@@ -46,7 +46,7 @@ public class Add_Date_Cus extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\Basim\\Documents\\NetBeansProjects\\NEWDATABASE\\src\\icons8_Schedule_96px.png")); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons8_Schedule_96px.png"))); // NOI18N
 
         jLabel3.setText("Day");
 
@@ -66,10 +66,10 @@ public class Add_Date_Cus extends javax.swing.JFrame {
 
         jTextField4.setText("00Hr");
 
-        jButton1.setIcon(new javax.swing.ImageIcon("C:\\Users\\Basim\\Documents\\NetBeansProjects\\NEWDATABASE\\src\\icons8_Realtime_48px.png")); // NOI18N
+        jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons8_Realtime_48px.png"))); // NOI18N
         jButton1.setToolTipText("");
 
-        jButton3.setIcon(new javax.swing.ImageIcon("C:\\Users\\Basim\\Documents\\NetBeansProjects\\NEWDATABASE\\src\\icons8_Show_Property_48px.png")); // NOI18N
+        jButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons8_Show_Property_48px.png"))); // NOI18N
         jButton3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton3ActionPerformed(evt);
@@ -78,14 +78,14 @@ public class Add_Date_Cus extends javax.swing.JFrame {
 
         jToggleButton3.setBackground(java.awt.SystemColor.info);
         jToggleButton3.setForeground(new java.awt.Color(240, 240, 240));
-        jToggleButton3.setIcon(new javax.swing.ImageIcon("C:\\Users\\Basim\\Documents\\NetBeansProjects\\NEWDATABASE\\src\\icons8_Broom_48px.png")); // NOI18N
+        jToggleButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons8_Broom_48px.png"))); // NOI18N
         jToggleButton3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jToggleButton3ActionPerformed(evt);
             }
         });
 
-        jButton2.setIcon(new javax.swing.ImageIcon("C:\\Users\\Basim\\Documents\\NetBeansProjects\\NEWDATABASE\\src\\icons8_Caretaker_48px.png")); // NOI18N
+        jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons8_Caretaker_48px.png"))); // NOI18N
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton2ActionPerformed(evt);

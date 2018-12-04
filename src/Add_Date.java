@@ -53,7 +53,7 @@ public class Add_Date extends javax.swing.JFrame {
 
         jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
 
-        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\Basim\\Documents\\NetBeansProjects\\NEWDATABASE\\src\\icons8_Schedule_96px.png")); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons8_Schedule_96px.png"))); // NOI18N
 
         jLabel2.setText("Select Paitiant");
 
@@ -82,10 +82,10 @@ public class Add_Date extends javax.swing.JFrame {
 
         jLabel8.setText("CheckType");
 
-        jButton1.setIcon(new javax.swing.ImageIcon("C:\\Users\\Basim\\Documents\\NetBeansProjects\\NEWDATABASE\\src\\icons8_Realtime_48px.png")); // NOI18N
+        jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons8_Realtime_48px.png"))); // NOI18N
         jButton1.setToolTipText("");
 
-        jButton3.setIcon(new javax.swing.ImageIcon("C:\\Users\\Basim\\Documents\\NetBeansProjects\\NEWDATABASE\\src\\icons8_Show_Property_48px.png")); // NOI18N
+        jButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons8_Show_Property_48px.png"))); // NOI18N
         jButton3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton3ActionPerformed(evt);
@@ -94,14 +94,14 @@ public class Add_Date extends javax.swing.JFrame {
 
         jToggleButton3.setBackground(java.awt.SystemColor.info);
         jToggleButton3.setForeground(new java.awt.Color(240, 240, 240));
-        jToggleButton3.setIcon(new javax.swing.ImageIcon("C:\\Users\\Basim\\Documents\\NetBeansProjects\\NEWDATABASE\\src\\icons8_Broom_48px.png")); // NOI18N
+        jToggleButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons8_Broom_48px.png"))); // NOI18N
         jToggleButton3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jToggleButton3ActionPerformed(evt);
             }
         });
 
-        jButton2.setIcon(new javax.swing.ImageIcon("C:\\Users\\Basim\\Documents\\NetBeansProjects\\NEWDATABASE\\src\\icons8_Caretaker_48px.png")); // NOI18N
+        jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons8_Caretaker_48px.png"))); // NOI18N
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton2ActionPerformed(evt);
@@ -205,7 +205,7 @@ public class Add_Date extends javax.swing.JFrame {
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, 471, javax.swing.GroupLayout.PREFERRED_SIZE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)

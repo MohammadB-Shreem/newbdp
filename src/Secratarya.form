@@ -114,7 +114,7 @@
         <Component class="javax.swing.JButton" name="jButton3">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\Basim\Documents\NetBeansProjects\NEWDATABASE\src\icons8_Calendar_Plus_48px.png"/>
+              <Image iconType="3" name="/icons8_Calendar_Plus_48px.png"/>
             </Property>
             <Property name="text" type="java.lang.String" value="   Set Date "/>
           </Properties>
@@ -125,7 +125,7 @@
         <Component class="javax.swing.JButton" name="jButton6">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\Basim\Documents\NetBeansProjects\NEWDATABASE\src\icons8_Shutdown_48px_1.png"/>
+              <Image iconType="3" name="/icons8_Shutdown_48px_1.png"/>
             </Property>
             <Property name="text" type="java.lang.String" value="Logout"/>
           </Properties>
@@ -136,7 +136,7 @@
         <Component class="javax.swing.JButton" name="jButton4">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\Basim\Documents\NetBeansProjects\NEWDATABASE\src\icons8_Treatment_48px.png"/>
+              <Image iconType="3" name="/icons8_Treatment_48px.png"/>
             </Property>
             <Property name="text" type="java.lang.String" value="Doctor Result"/>
           </Properties>
@@ -152,7 +152,7 @@
         <Component class="javax.swing.JToggleButton" name="jToggleButton1">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\Basim\Documents\NetBeansProjects\NEWDATABASE\src\icons8_Add_User_Male_48px_1.png"/>
+              <Image iconType="3" name="/icons8_Add_User_Male_48px_1.png"/>
             </Property>
             <Property name="text" type="java.lang.String" value="App Patiaint"/>
           </Properties>

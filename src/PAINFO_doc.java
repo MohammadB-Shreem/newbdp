@@ -60,7 +60,7 @@ public class PAINFO_doc extends javax.swing.JFrame {
         });
         jScrollPane1.setViewportView(prescription);
 
-        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\Basim\\Documents\\NetBeansProjects\\NEWDATABASE\\src\\icons8_More_Info_96px_2.png")); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons8_More_Info_96px_2.png"))); // NOI18N
         jLabel1.setToolTipText("");
 
         jButton3.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N

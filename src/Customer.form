@@ -88,14 +88,14 @@
         <Component class="javax.swing.JLabel" name="jLabel1">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\Basim\Documents\NetBeansProjects\NEWDATABASE\src\icons8_User_96px.png"/>
+              <Image iconType="3" name="/icons8_User_96px.png"/>
             </Property>
           </Properties>
         </Component>
         <Component class="javax.swing.JButton" name="jButton1">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\Basim\Documents\NetBeansProjects\NEWDATABASE\src\icons8_Schedule_48px.png"/>
+              <Image iconType="3" name="/icons8_Schedule_48px.png"/>
             </Property>
             <Property name="text" type="java.lang.String" value="Requset Date"/>
           </Properties>
@@ -106,7 +106,7 @@
         <Component class="javax.swing.JButton" name="jButton2">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\Basim\Documents\NetBeansProjects\NEWDATABASE\src\icons8_Info_48px_1.png"/>
+              <Image iconType="3" name="/icons8_Info_48px_1.png"/>
             </Property>
             <Property name="text" type="java.lang.String" value="Edit Info"/>
           </Properties>
@@ -117,7 +117,7 @@
         <Component class="javax.swing.JButton" name="jButton3">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\Basim\Documents\NetBeansProjects\NEWDATABASE\src\icons8_Treatment_48px.png"/>
+              <Image iconType="3" name="/icons8_Treatment_48px.png"/>
             </Property>
             <Property name="text" type="java.lang.String" value="Doctor Report"/>
           </Properties>
@@ -128,7 +128,7 @@
         <Component class="javax.swing.JButton" name="jButton4">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\Basim\Documents\NetBeansProjects\NEWDATABASE\src\icons8_Vintage_Glasses_48px.png"/>
+              <Image iconType="3" name="/icons8_Vintage_Glasses_48px.png"/>
             </Property>
             <Property name="text" type="java.lang.String" value="Optical Report"/>
           </Properties>
@@ -136,7 +136,7 @@
         <Component class="javax.swing.JButton" name="jButton6">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\Basim\Documents\NetBeansProjects\NEWDATABASE\src\icons8_Shutdown_48px_1.png"/>
+              <Image iconType="3" name="/icons8_Shutdown_48px_1.png"/>
             </Property>
             <Property name="text" type="java.lang.String" value="Logout"/>
           </Properties>
