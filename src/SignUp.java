@@ -272,7 +272,7 @@ public class SignUp extends javax.swing.JFrame {
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new ADDPA().setVisible(true);
+                new SignUp().setVisible(true);
             }
         });
     }
