@@ -64,7 +64,7 @@ public class EditInfo extends javax.swing.JFrame {
 
         jLabel7.setText("Job");
 
-        jTextField1.setText("Full_Name ");
+        jTextField1.setText("f");
         jTextField1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextField1ActionPerformed(evt);

@@ -78,6 +78,7 @@ public class Login extends javax.swing.JFrame {
         jPanel1.add(username);
         username.setBounds(160, 200, 190, 30);
 
+        passcode.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 0, 0), 1, true));
         passcode.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 passcodeActionPerformed(evt);
@@ -95,7 +96,7 @@ public class Login extends javax.swing.JFrame {
             }
         });
         jPanel1.add(jButton1);
-        jButton1.setBounds(230, 350, 128, 50);
+        jButton1.setBounds(230, 350, 130, 50);
 
         jButton2.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons8_Login_48px_1.png"))); // NOI18N
@@ -164,6 +165,10 @@ public class Login extends javax.swing.JFrame {
         else if(username.getText().equalsIgnoreCase("tala")&&passcode.getText().equalsIgnoreCase("1234")){
         this.hide();
         new Customer().setVisible(true);
+        }
+        else if(username.getText().equalsIgnoreCase("shosho")&&passcode.getText().equalsIgnoreCase("1234")){
+        this.hide();
+        new Optical().setVisible(true);
         }
         else {
         JOptionPane.showMessageDialog(this,"Error Name Or passcode",null,JOptionPane.ERROR_MESSAGE);
